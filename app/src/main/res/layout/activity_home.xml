@@ -76,7 +76,7 @@
             android:layout_height="330dp"
             android:layout_marginEnd="50dp"
             android:layout_marginTop="10dp"
-            android:src="@drawable/promoKopi"
+            android:src="@drawable/promo_kopi"
             />
 
         <TextView
@@ -95,7 +95,7 @@
             android:layout_height="wrap_content"
             android:text="Pick Up"
             android:textSize="25sp"
-            android:drawableLeft="@drawable/pickUp"
+            android:drawableLeft="@drawable/pick_up"
             android:background="@drawable/button_background"
             android:layout_marginEnd="10dp"
             android:layout_marginTop="10dp"
