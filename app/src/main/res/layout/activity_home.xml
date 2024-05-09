@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -51,68 +51,44 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/baseline_shopping_cart_24"
-                android:layout_marginEnd="10dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginEnd="10dp"
-                android:src="@drawable/baseline_shopping_cart_24"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/imageView"
-                app:layout_constraintTop_toTopOf="parent" />
-
         </androidx.constraintlayout.widget.ConstraintLayout>
+
         <ImageView
-            android:layout_width="410dp"
-            android:layout_height="330dp"
-            android:layout_marginEnd="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
             android:layout_marginTop="10dp"
-            android:src="@drawable/promo_kopi"
-            />
+            android:src="@drawable/promo_kopi" />
 
         <TextView
-            android:layout_width="300dp"
+            android:layout_width="wrap_content"
             android:layout_height="30dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:text="Pesan sekarang"
-            android:layout_marginStart="10dp"
             android:textColor="@color/black"
-            android:textStyle="bold|normal"
             android:textSize="20dp"
-            />
+            android:textStyle="bold|normal" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pick Up"
-            android:textSize="25sp"
-            android:drawableLeft="@drawable/pick_up"
-            android:background="@drawable/button_background"
-            android:layout_marginEnd="10dp"
+            android:layout_marginHorizontal="10dp"
             android:layout_marginTop="10dp"
-            />
+            android:background="@drawable/button_background"
+            android:drawableLeft="@drawable/pick_up"
+            android:text="Pick Up"
+            android:textSize="25sp" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Delivery"
-            android:textSize="25sp"
-            android:drawableLeft="@drawable/delivery"
-            android:background="@drawable/button_background"
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
-
-            />
+            android:background="@drawable/button_background"
+            android:drawableLeft="@drawable/delivery"
+            android:text="Delivery"
+            android:textSize="25sp" />
 
     </LinearLayout>
 
